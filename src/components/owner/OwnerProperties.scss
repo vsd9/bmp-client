@@ -1,0 +1,16 @@
+.page-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hr-line{
+  margin-top: 50px;
+  border-bottom: 1px solid black;
+}
+
+.prop-collection-container{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+}

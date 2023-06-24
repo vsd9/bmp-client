@@ -1,0 +1,42 @@
+.cust-home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    .search-container{
+      width: 50vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .search-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .search-btn{
+          display: flex;
+          gap: 1rem;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+    .hr-line1{
+      margin-top: 50px;
+      width: 80vw;
+      // height: 2px;
+      border-bottom: 1px solid black;
+    }
+
+    .cust-nav-buttons{
+      display: flex;
+      gap:1rem;
+    }
+    .cust-prop-container{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 20px;
+    }
+}

@@ -1,0 +1,94 @@
+.prop-container{
+    width: 20vw;
+    height: 60vh;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    justify-self: center;
+    .prop-number{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      #circle{
+        background: lightblue;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .prop-price{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .prop-comm{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+      .prop-comm-ftype{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      .prop-comm-ptype{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+
+    .prop-loc{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .prop-details-button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      button{
+        border-style: none;
+        cursor: pointer;
+        font-family: inherit;
+        font-size: smaller;
+        border: 1px solid;
+        border-radius: 15px;
+        padding: 9px;
+        background-color:white
+      }
+      button:hover{
+        background-color: black;
+        color: white;
+      }
+      button:disabled,
+      button[disabled]{
+        cursor: none;
+        border-color: green;
+        color: green;
+        background-color: white;
+      }
+
+    }
+
+
+}
